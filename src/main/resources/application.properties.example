@@ -1,0 +1,8 @@
+mqtt.broker=tcp://localhost:1883
+mqtt.topic=zigbee2mqtt/#
+# Do NOT put production commands or secrets in this file.
+# Use environment variables or a local (ignored) config file instead.
+# Example: export SSH_CMD="ssh -NfL 10.8.0.1:1883:localhost:1883 yourhost.example.com"
+ssh.cmd=${SSH_CMD}
+pkill.cmd=${PKILL_CMD}
+timeout.seconds=60

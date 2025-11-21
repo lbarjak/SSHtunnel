@@ -1,0 +1,25 @@
+## Maven / Java
+target/
+*.log
+.mvn/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local backups and generated files
+pom.xml.bak
+info.txt
+
+# Other
+bin/
+application-local.properties
+.env
